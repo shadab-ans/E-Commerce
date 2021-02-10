@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color:  #FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+.navbar{
+  background-color: #FFFFFF;
+}
+
+.navbar-brand{
+  color: #565387 !important;
+  font-size: 1.9rem !important;
+  font-family: Mulish;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+ 
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+ .navbar a:hover{
+   color: #2e86a7 !important ;
+ }
+
+ .menu_active{
+      font-weight: bold;
+      border-bottom: 1px solid #565387;
+      color: rgb(11, 98, 133) !important;
+ }
+
+ @media(max-width:991px){
+   .navbar-brand{
+     font-size: 1.5rem !important;
+   }
+   .menu_active{
+     border-bottom: none;
+   }
+ }
+ 
+
+ #header{
+   width: 100%;
+   height: 80vh;
+   margin-top: 70px;
+ }
+
+ #header h1{
+   font-weight: 500;
+ }
+ #header p{
+  font-weight: 300;
+  font-size: 23px;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+ 
+
+@keyframes up-down{
+  0%{
+    transform: translateY(15px);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+}
+
+
+.btn bg-primary{
+  color: white !important;
+}
+
+.brand-name{
+color: #3498db;
+}
+
+.btn{
+color: white;
+outline-width: 0 !important;
+}
+.btn:hover{
+color: #106CF6 ;
+background-color: rgb(226, 226, 226) !important;
+}
+
+.header-img > img{
+width: 40vw;
+height: auto;
+}
+
+.btn-get-started{
+border-radius: 999px;
+padding: 10px 20px !important;
+width: 150px ;
+height: 50px;
+background-color: rgb(255, 255, 255);
+text-decoration: none;
+border: 1px solid #106CF6;
+transition: 0.2s linear;
+}
+
+.btn-get-started:hover{
+  background-color: #106CF6;
+  color: white;
+}
+
+.my-5{
+  letter-spacing: 5px;
+  color: #023075;
+}
+
+.card{
+  box-shadow: 1px 2px 4px gray;
+}
+
+.click-to-join{
+  width: 150px;
+  height: 60px;
+   border: 1px solid rgb(163, 0, 0);
+  color: rgb(163, 0, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  transition: 0.3s linear;
+}
+
+.click-to-join:hover{
+  background-color: rgb(163, 0, 0) ;
+  color: white;
+}
+.col-12 .btn:hover{
+   color: #106CF6 !important;
+   background-color: white !important;
+}
