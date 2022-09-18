@@ -1,0 +1,47 @@
+.Cart-h3{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.Cart-row{
+    margin-bottom: 15px ;
+}
+.Cart-row-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Input > input{
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    outline-width: 0px;
+    width: 100px !important;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+.Cart-row{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+}
+
+.Cart-row-center-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.totalPrice{
+    background-color: black;
+        color: white;
+        padding: 10px;
+}
+
+@media(max-width:767.98px){
+    .totalPrice{
+        display: flex;
+        justify-content: center;
+        float: unset !important;
+        background-color: black;
+        color: white;
+    }
+}

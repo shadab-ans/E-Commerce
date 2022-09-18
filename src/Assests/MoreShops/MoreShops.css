@@ -1,0 +1,10 @@
+.Tabs_Menu .nav-tabs .nav-link {
+    
+    color: black;
+}
+
+.Tabs_Menu .nav-tabs .nav-link.active{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #fed700;
+    color: black !important;
+}

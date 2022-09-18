@@ -1,0 +1,10 @@
+.Compare-Table th{
+    vertical-align:middle !important;
+    text-align: center !important;
+}
+
+.Compare-Table td{
+    vertical-align:middle !important;
+    text-align: center !important;
+    width: 45%;
+}

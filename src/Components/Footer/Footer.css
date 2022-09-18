@@ -1,0 +1,23 @@
+.Footer{
+    padding: 1rem 0rem;
+    background-color: #f6f6f6;
+}
+ul li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    padding: 0.3rem 0rem;
+}
+
+.Footer-pay-img{
+    display: flex;
+    justify-content: space-around;
+}
+.Footer-pay-img div{
+    width: 49px;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+

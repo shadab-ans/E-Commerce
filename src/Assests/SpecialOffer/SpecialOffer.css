@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.Special-Offer{
+    width: 100%;
+    height: max-content;
+    border-radius: 20px;
+    border: 2px solid #fed700;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Special-Offer-title{
+    width: 100%;
+    height: max-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Special-Offer-title h3{
+    margin: 0% !important;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Special-Offer-title-icon{
+    width: 90px;
+    background-color: #fed700;
+    height: 90px;
+    border-radius: 90%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Special-Offer-title-icon div{
+    display: grid;
+    align-items: center;
+}
+.Special-Offer-title-icon div span{
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.Special-Offer-title-icon div p{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Spacial-Offer-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Special-Offer-content a {
+    text-decoration: none;
+}
+
+.Special-Offer-content a:hover{
+    text-decoration: none;
+}
+
+.Special-Offer-content p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+.Special-Offer-content p {
+    margin: 0%;
+}
+.Special-Offer-content p s{
+    font-size: 13px;
+}
+
+.Special-Offer-content p span{
+    color: red;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.Special-Offer-progressbar{
+    width: 100%;
+}
+.Special-Offer-progressbar-title{
+    padding: 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Special-Offer-progressbar-bar{
+    padding: 0rem 1rem;
+    padding-bottom: 1rem;
+}
+
+#Special-Offer-clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}

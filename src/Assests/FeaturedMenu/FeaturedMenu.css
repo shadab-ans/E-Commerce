@@ -1,0 +1,28 @@
+.FeaturedMenu .nav-tabs .nav-link {
+    color: black !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.FeaturedMenu .nav {
+    justify-content: center;
+}
+
+.FeaturedMenu .nav-tabs .nav-link.active {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #fed700;
+}
+
+/*  */
+
+.Featured-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+@media(max-width:  767.98px){
+    .Featured-group {
+        grid-template-columns: auto auto !important;
+    }
+}

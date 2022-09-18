@@ -1,0 +1,91 @@
+.DescriptionBox{
+    /* border: 1px solid rgba(128, 128, 128, 0.308);
+    border-radius: 20px; */
+    /* padding: 50px; */
+ 
+}
+
+.DescriptionBox  .nav-tabs .nav-link {
+    
+    color: rgb(66, 66, 66);
+}
+
+
+.DescriptionBox .nav{
+    justify-content: center;
+}
+.DescriptionBox .nav-tabs{
+    border-bottom: unset !important;
+}
+.DescriptionBox  .nav-tabs .nav-link.active{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 3px solid #fed700;
+    color: black !important;
+}
+
+
+.Sub__description{
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    border-radius: 20px;
+    padding: 50px;
+}
+.Sub__description h2{
+    color: rgb(61, 61, 61);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.Sub__description p{
+    color: rgb(119, 119, 119);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.Sub__description-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:749.98px){
+    .Sub__description__container{
+        width: 100% !important;
+    }
+    .DescriptionBox{
+        width: 100% !important;
+        padding: 10px;
+    }
+    .Sub__description{
+        padding: 10px !important;
+        padding-top: 30px !important;
+    }
+}
+
+.Sub__Specs tr th{
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.Sub__Specs tr td{
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#ratingInput{
+    margin-left: 40px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    padding: 10px;
+    border-radius: 10px;
+    outline-width: 0px;
+    font-size: 12px;
+    height: 100px;
+}
+
+.addReview{
+    border-radius: 20px !important;
+    width: 150px;
+}

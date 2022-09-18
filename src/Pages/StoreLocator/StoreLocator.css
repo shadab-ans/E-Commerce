@@ -1,0 +1,11 @@
+p span svg{
+    vertical-align: unset !important;
+}
+
+.StoreLocator-list{
+    width: 100%;
+    /* background-color: #f6f6f6; */
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.116);
+}

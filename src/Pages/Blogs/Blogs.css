@@ -1,0 +1,34 @@
+.Blog-Card{
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.Blog-Card-text{
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+}
+
+.Blogs-list{
+    transition: 0.2s;
+}
+.Blogs-list:hover{
+    /* font-size: 17px; */
+    cursor: pointer;
+    color: rgb(235, 0, 0);
+}
+
+.Blogs-list-tags{
+    border: 1px solid rgba(90, 90, 90, 0.226);
+    padding: 8px;
+    width: max-content;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Blogs-list-tags-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Blogs-list-tags:hover{
+    background-color: #fed700;
+}

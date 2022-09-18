@@ -1,0 +1,78 @@
+.aboutCard-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutCard-text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.about-profile-card{
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent !important;
+}
+.about-profile-card #img{
+    border-radius: 50%;
+}
+.about-profile-card-title{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.about-profile-card-content{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+
+.About-Whatwedo p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.AboutTabs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 2px;
+    border: 1px solid rgba(119, 119, 119, 0.52);
+}
+
+.AboutTabs-icon{
+    width: 10%;
+    /* height: 30px; */
+    background-color: gray;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+ .AboutTabs-icon:hover{
+    background-color: #fed700;
+}
+.AboutTabs-title{
+    text-align: center;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+}
+
+.AboutTabs-content{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(238, 238, 238);
+    transition: 0.4s linear;
+    z-index: 5;
+    display: none;
+    padding: 17px;
+}
+

@@ -1,0 +1,50 @@
+.Subscribe{
+    background-color: #fed700;
+    padding: .7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Subscribe-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    margin: 0% !important;
+    padding: 1rem 0rem;
+}
+
+strong{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    text-align: center;
+    margin: 0%;
+    font-size: 1.2rem !important;
+    margin: 0%;
+}
+
+.Subscribe-form{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.Subscribe-form label{
+    margin: 0%;
+    background-color: rgb(44, 44, 44);
+    padding: 0.6rem;
+    color: white;
+}
+.Subscribe-form label:hover{
+    background-color: rgb(0, 0, 0);
+}
+.Subscribe-form input[type=text]{
+    border:none;
+    outline: none;
+    width: 75%;
+    margin-left: 10px;
+}

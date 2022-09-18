@@ -1,0 +1,26 @@
+.RecentlyViewed{
+    height: max-content;
+    
+}
+
+.RecentlyViewed h2{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin:0% ;
+}
+
+.RecentlyViewed-card{
+    display: flex;
+}
+
+#RecentlyViewed-section{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-content: space-evenly;
+     */
+     display: flex;
+     justify-content: space-evenly;
+}
+

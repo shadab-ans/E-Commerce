@@ -1,0 +1,16 @@
+.rated {
+    color: #fed700;
+    font-size: 5px;
+}
+
+.unrated{
+    color:rgb(197, 197, 197)
+}
+
+.not{
+    color: rgb(197, 197, 197);
+}
+
+.ratedData__section{
+    /* display: flex; */
+}

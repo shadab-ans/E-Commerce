@@ -1,0 +1,10 @@
+#faqsQuestion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#faqsAnswer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: gray;
+}

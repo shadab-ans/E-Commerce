@@ -1,0 +1,89 @@
+
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#fbd600, #ffe96a);
+}
+
+.LoginPage section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px rgba(83, 83, 83, 0.198);
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    background-color: rgb(255, 255, 255);
+    border-radius:3px;
+}
+
+.LoginPage div{
+    margin-bottom: 30px;
+}
+
+#label{
+    /* background-color: blue; */
+    /* padding:0px 10px ; */
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0px;
+    color: rgb(104, 104, 104);
+}
+
+#input{
+    background: rgba(255, 100, 100, 0);
+    border: none;
+    outline-width: 0px;
+    width: 110px;
+}
+::placeholder{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+    /* text-align: center; */
+}
+.LoginPage form {
+    background-color: #f6f6f6;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#loginBtn{
+    padding:3px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: .3s;
+}
+#loginBtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.register-css{
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginPage input {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 13px;
+    width: 350px;
+}
+
+.LoginPage button{
+    margin: 5px;
+    padding: 10px 15px !important;
+}
+
+.login-css{
+    display: flex;
+    flex-direction: column;
+}
